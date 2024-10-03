@@ -2,7 +2,7 @@
 function getNumbers() {
     return new Promise((resolve) => {
             resolve([1, 2, 3, 4]);
-    }
+    });
 }
 
 getNumbers()
